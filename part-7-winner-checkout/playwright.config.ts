@@ -16,6 +16,10 @@ export default defineConfig({
       name: 'edge',
       use: { channel: 'msedge' },
     },
+    {
+      name: 'chrome',
+      use: { channel: 'chrome' },
+    },
   ],
   webServer: {
     command: 'npm run dev',
